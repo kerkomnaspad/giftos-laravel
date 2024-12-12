@@ -19,7 +19,7 @@
             </div>
             <div class="detail-box d-flex flex-column justify-content-between p-3" style="flex: 1;">
                 <h4 class="product-name">{{$item->name}}</h4>
-                <h5 class="product-category text-muted">Category: {{$item->item_types->name}}</h5>
+                <h5 class="product-category text-muted">Category: {{$item->itemtypes->name}}</h5>
                 <p class="product-description">{{$item->description}}</p>
                 <h6 class="product-price">Price: <br>
                     <span>
