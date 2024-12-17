@@ -153,11 +153,7 @@
               <a class="nav-link" href="{{ url('/profile') }}">Profile</a>
             </li>
             @endif
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="testimonial.html">
-                Testimonial
-              </a>
-            </li> -->
+
             @if (Auth::check())
 
         <li class="nav-item">

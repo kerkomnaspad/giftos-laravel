@@ -17,15 +17,12 @@ return new class extends Migration
             $table->integer('item_id')->constrained('items');
             $table->integer ('quantity');
             $table->integer('status')->default(0);
-            // $table->dateTime('created_at');
-            // $table->dateTime('updated_at');
+
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
+    
     public function down(): void
     {
         Schema::dropIfExists('carts');

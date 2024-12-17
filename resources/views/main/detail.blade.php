@@ -33,7 +33,7 @@
                 @endif
                 <form action="{{ route('add.to.cart') }}" method="POST">
                     @csrf
-                    <input type="hidden" name="item_id" value="{{ $item->id }}"> <!-- Assuming $item is defined -->
+                    <input type="hidden" name="item_id" value="{{ $item->id }}"> 
                     <button type="submit" class="btn btn-primary btn-sm align-self-end add-to-cart-btn">Add to
                         Cart</button>
                 </form>
